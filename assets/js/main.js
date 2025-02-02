@@ -11,8 +11,8 @@ typeWrite(document.querySelector(".typewriter"));
 hoverChangeExperience(
   ".digitalhouse",
   `Trabalhei como instrutor conteudista em frontend na
-  Digital House, o trabalho consistia em criar conteúdos para as
-  aulas de especialização frontend. Alguns temas dos conteúdos
+  Digital House, o trabalho consistia em criar conteÃºdos para as
+  aulas de especializaÃ§Ã£o frontend. Alguns temas dos conteÃºdos
   realizados foram: React, Redux, TypeScript, Testes,
   GraphQL, Next.js, MUI, React Hook Form e styled-components.`,
   "Professor conteudista em Frontend",
@@ -22,9 +22,9 @@ hoverChangeExperience(
 
 hoverChangeExperience(
   ".zuplae",
-  `Trabalhei como Social Media e Designer na Zuplae que é um escola
-  de programação, onde teve como foco as criações de conteúdos sobre
-  programação para a comunidade dev através das redes sociais.`,
+  `Trabalhei como Social Media e Designer na Zuplae que Ã© um escola
+  de programaÃ§Ã£o, onde teve como foco as criaÃ§Ãµes de conteÃºdos sobre
+  programaÃ§Ã£o para a comunidade dev atravÃ©s das redes sociais.`,
   "Social Media e UI Designer",
   "Zuplae",
   "Jan 2022 - Abril 2022 (4 meses)"
@@ -32,18 +32,18 @@ hoverChangeExperience(
 
 hoverChangeExperience(
   ".codigofontetv",
-  `Trabalhei como Social Media e Designer no Código Fonte TV, 
-  onde teve como foco as criações de conteúdos sobre programação 
-  para a comunidade dev através das redes sociais.`,
+  `Trabalhei como Social Media e Designer no CÃ³digo Fonte TV, 
+  onde teve como foco as criaÃ§Ãµes de conteÃºdos sobre programaÃ§Ã£o 
+  para a comunidade dev atravÃ©s das redes sociais.`,
   "Social Media e Designer",
-  "Código Fonte TV",
+  "CÃ³digo Fonte TV",
   "Jun 2021 - Jan 2022 (8 meses)"
 );
 
 hoverChangeExperience(
   ".contweb",
-  `Realizei o estágio na ContWeb, uma empresa de contabilidade. 
-  Onde pela primeira vez tive experiência com o React. Além do
+  `Realizei o estÃ¡gio na ContWeb, uma empresa de contabilidade. 
+  Onde pela primeira vez tive experiÃªncia com o React. AlÃ©m do
   desenvolvimento frontend criei os designs da nova plataforma da empresa.`,
   "Developer frontend e UI Designer",
   "ContWeb",
@@ -52,49 +52,49 @@ hoverChangeExperience(
 
 hoverChangeDescription(
   ".html",
-  "HTML é uma linguagem de marcação, onde marcamos os elementos para definir quais informações a página vai exibir."
+  "HTML Ã© uma linguagem de marcaÃ§Ã£o, onde marcamos os elementos para definir quais informaÃ§Ãµes a pÃ¡gina vai exibir."
 );
 hoverChangeDescription(
   ".css",
-  "CSS é uma linguagem de folha de estilo composta por “camadas”, criado com o propósito de estilizar as páginas."
+  "CSS Ã© uma linguagem de folha de estilo composta por â€œcamadasâ€, criado com o propÃ³sito de estilizar as pÃ¡ginas."
 );
 hoverChangeDescription(
   ".js",
-  "JavaScript é uma linguagem de programação que permite a você implementar elementos dinâmicos em páginas web."
+  "JavaScript Ã© uma linguagem de programaÃ§Ã£o que permite a vocÃª implementar elementos dinÃ¢micos em pÃ¡ginas web."
 );
 hoverChangeDescription(
   ".sass",
-  "Sass é um pré-processador CSS que adiciona alguns recursos que não estão disponíveis de forma nativa."
+  "Sass Ã© um prÃ©-processador CSS que adiciona alguns recursos que nÃ£o estÃ£o disponÃ­veis de forma nativa."
 );
 hoverChangeDescription(
   ".react",
-  "React é uma biblioteca JavaScript com foco em criar interfaces de usuário de forma componetizada."
+  "React Ã© uma biblioteca JavaScript com foco em criar interfaces de usuÃ¡rio de forma componetizada."
 );
 hoverChangeDescription(
   ".next",
-  "Next.js é uma estrutura da web que permite funcionalidades como renderização do lado do servidor e geração de sites estáticos para web baseados em React."
+  "Next.js Ã© uma estrutura da web que permite funcionalidades como renderizaÃ§Ã£o do lado do servidor e geraÃ§Ã£o de sites estÃ¡ticos para web baseados em React."
 );
 hoverChangeDescription(
   ".styled",
-  "styled-components é uma biblioteca que utiliza o conceito de CSS-in-JS, ou seja, que nos permite escrever códigos CSS dentro do Javascript."
+  "styled-components Ã© uma biblioteca que utiliza o conceito de CSS-in-JS, ou seja, que nos permite escrever cÃ³digos CSS dentro do Javascript."
 );
 hoverChangeDescription(
   ".tailwind",
-  "Tailwind CSS é um framework CSS que nos fornece classes utilitárias com o propósito de estilizar as páginas."
+  "Tailwind CSS Ã© um framework CSS que nos fornece classes utilitÃ¡rias com o propÃ³sito de estilizar as pÃ¡ginas."
 );
 hoverChangeDescription(
   ".typescript",
-  "TypeScript é um superset do JavaScript que incluir recursos que não estão presentes na linguagem de forma nativa, além de torná-la estática."
+  "TypeScript Ã© um superset do JavaScript que incluir recursos que nÃ£o estÃ£o presentes na linguagem de forma nativa, alÃ©m de tornÃ¡-la estÃ¡tica."
 );
 hoverChangeDescription(
   ".radix",
-  "Radix é uma biblioteca que fornece componentes acessíveis e sem estilos para a criação de aplicação em React."
+  "Radix Ã© uma biblioteca que fornece componentes acessÃ­veis e sem estilos para a criaÃ§Ã£o de aplicaÃ§Ã£o em React."
 );
 hoverChangeDescription(
   ".cypress",
-  "Cypress é um framework para automação de testes end-to-end, onde atualmente usa a linguagem JavaScript."
+  "Cypress Ã© um framework para automaÃ§Ã£o de testes end-to-end, onde atualmente usa a linguagem JavaScript."
 );
 hoverChangeDescription(
   ".storybook",
-  "Storybook é uma ferramenta que tem como objetivo documentar e testar os componentes da aplicação."
+  "Storybook Ã© uma ferramenta que tem como objetivo documentar e testar os componentes da aplicaÃ§Ã£o."
 );
