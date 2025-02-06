@@ -47,6 +47,12 @@ header{
     font-weight: 700;
     letter-spacing: 1px;
 }
+.logo:hover {
+    color: var(--text-color);
+    font-size: 35px ;
+    font-weight: 700;
+    letter-spacing: 1px;  
+}
 span{
     color: var(--main-color);
 }
@@ -84,15 +90,16 @@ section{
     justify-content: flex-start;
 }
 .img-fluid{
-    width: 539px;
+    width: 239px;
     filter: grayscale(100%); 
+    border-radius: 100%;
 }
 .img-fluid:hover{
     cursor: pointer;
    filter: none;
 }
 .slide{
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 .one{
     display: inline-block;
@@ -158,9 +165,7 @@ section{
     font-size: 15px;
     font-weight: 600;
     content: var(--text-color);
-    color: var(--text-color);
-    margin-bottom: 5px;   
-  
+    color: var(--text-color);  
 }
 
 /*----Start About section--------*/
@@ -209,7 +214,6 @@ section{
 .main-text p{
     color: var(--second-color);
     font-size: 15px;
-    margin-bottom: 15px;
 }
 .main-text h2{
     font-size: var(--h2-font);
@@ -269,21 +273,21 @@ section{
 .row{
     position: relative;
     overflow: hidden;
-    border-radius: 8px;
+    border-radius: 30px;
     cursor: pointer;
 }
 .row img{
-    width: 330px;
-    border-radius: 8px;
+    width: 380px;
+    border-radius: 30px;
     display: block;
     transition: transform 0.5s;
 }
 .lyer{
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.1), #ff004f);
+    background: linear-gradient(rgba(0, 0, 0, 0.384), #242424);
     position: absolute;
-    border-radius: 8px;
+    border-radius: 30px;
     left: 0;
     bottom: 0;
     overflow: hidden;
@@ -414,12 +418,13 @@ section{
     color: var(--text-color);
     background: var(--main-color);
     padding: 8px 15px;
-    border-radius: 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 25px;
 }
 
 
 /* ------Responsivenes---*/
-  /*  stop now-------
 @media (max-width: 1480px){
     header{
         padding: 12px 2.5%;
@@ -435,7 +440,7 @@ section{
     .end{
         padding: 15px 3%;
     }
-}  ----------*/
+} 
 
    @media(max-width: 920px){
     .home-txt h1{
