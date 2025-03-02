@@ -165,33 +165,39 @@
     </section>
 
     <!------- Contact Section desing-------->
-    <section class="contact" id="contact">
-        <div class="contact-text">
-            <h2>Contact<span> Moi !</span></h2>
-            <h4>Si tu as un projet en tête.</h4>
-            <p>Je suis Loris, développeur et administrateur système, créant des solutions sur mesure pour des services en ligne performants.</p>
-            <div class="list">
-                <li><a><span>Discord:</span> Sahran__</a></li>
-                <li><a><span>Mail:</span> sahrancontacte@gmail.com</a></li>
-            </div>
-            <!--<div class="contact-icons">
-                <a href="#"><img src="image/facebook.png" alt=""></a>
-                <a href="#"><img src="image/linkedin.png" alt=""></a>
-                <a href="#"><img src="image/instagram.png" alt=""></a>
-                <a href="#"><img src="image/whatsapp.png" alt=""></a>
-            </div>-->
+<section class="contact" id="contact">
+    <div class="contact-text">
+        <h2>Contact<span> Moi !</span></h2>
+        <h4>Si tu as un projet en tête.</h4>
+        <p>Je suis Loris, développeur et administrateur système, créant des solutions sur mesure pour des services en ligne performants.</p>
+        <div class="list">
+            <li><a><span>Discord:</span> Sahran__</a></li>
+            <li><a><span>Mail:</span> sahrancontacte@gmail.com</a></li>
         </div>
+    </div>
 
-        <div class="contact-form">
-            <form action="">
-                <input type="name" placeholder="Nom" required>
-                <input type="email" placeholder="Adresse Mail" required>
-                <textarea name="" id="" cols="35" rows="10" placeholder="Question" required></textarea>
-                <input type="submit" value="Envoyé" class="submit" required>
-            </form>
-        </div>
+    <div class="contact-form">
+        <form action="#" onsubmit="simulateError(event)">
+            <input type="name" placeholder="Nom" required>
+            <input type="email" placeholder="Adresse Mail" required>
+            <textarea name="" id="" cols="35" rows="10" placeholder="Question" required></textarea>
+            <input type="submit" value="Envoyé" class="submit">
+        </form>
+    </div>
+</section>
 
-    </section>
+<div id="error-message" style="display: none; padding: 20px; background: #222; color: white; text-align: center; position: fixed; top: 0; left: 0; width: 100%; height: 100%; font-family: monospace;">
+    <h1>502 Bad Gateway</h1>
+    <p>nginx/1.18.0 (Ubuntu)</p>
+</div>
+
+<script>
+    function simulateError(event) {
+        event.preventDefault(); // Empêche l'envoi réel du formulaire
+        document.body.innerHTML = document.getElementById('error-message').outerHTML; // Remplace tout le contenu
+        document.getElementById('error-message').style.display = 'block';
+    }
+</script>
 <br>
     <!----------end section-------->
     <div class="end">
