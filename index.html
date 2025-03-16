@@ -7,9 +7,14 @@
     <title>Sahran</title>
     <link rel="stylesheet" href="csss/bootstrap.min.css">
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/custom.js"></script>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <audio id="background-music" autoplay loop>
+        <source src="Echo-Host.mp3" type="audio/mpeg">
+        Votre navigateur ne supporte pas l'élément audio.
+    </audio>
     <!-- Navbar -->
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -37,6 +42,10 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#contact">Contact</a>
                         </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" id="mute-button">🔊</a> 
+                        </li>
+                        
                     </ul>
                 </div>
             </div>
@@ -54,6 +63,12 @@
             <h3>Administrateur de système<span> & </span>Développeur</h3>
             <p>J'ai un an d'expérience en tant qu'administrateur système et deux ans en tant que développeur.</p>
             <a href="#competences" class="btn2">Voir mes compétences</a>
+            <br>
+            <br>
+            <a href="#" id="start-music" class="btn2">
+                Musique
+            </a>
+        
         </div>
     </section>
 
@@ -240,5 +255,30 @@
         header.classList.toggle('sticky', window.scrollY > 0);
     });
 </script>
+
+
+<!--
+<div id="welcome-message" style="display: block; padding: 20px; background: #222; color: white; text-align: center; position: fixed; top: 0; left: 0; width: 100%; height: 100%; font-family: 'Roboto', sans-serif; z-index: 9999; display: flex; justify-content: center; align-items: center; flex-direction: column;">
+    <button id="start-music" style="background: linear-gradient(to right, #9933cc, #cc66ff); color: white; padding: 15px 30px; font-size: 1.2rem; border: none; border-radius: 25px; cursor: pointer; transition: background 0.3s;">
+        Voir le site
+    </button>
+</div>
+
+<style>
+#start-music {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    animation: fadeIn 1s ease-in-out;
+}
+    
+#start-music:hover {
+    background: linear-gradient(to right, #cc66ff, #9933cc);
+    transform: scale(1.05);
+    transition-duration: 0.3s;
+}
+</style>
+-->
+
+<audio id="background-music" src="Echo-Host.mp3"></audio>
+
 </body>
 </html>
